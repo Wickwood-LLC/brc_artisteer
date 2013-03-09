@@ -1,8 +1,10 @@
+/* @override 
+	http://dev.1.blueribboncampaign.org/sites/dev.1.blueribboncampaign.org/themes/brc/style.css?mjetr5 */
+
 /* Created by Artisteer v4.1.0.59861 */
 
 #art-main
 {
-   background: #96C8DE url('images/page.jpeg') no-repeat fixed;
    margin:0 auto;
    font-size: 16px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
@@ -281,6 +283,18 @@ ol
 html, body
 {
    height: 100%;
+}
+
+html {
+   background-color: #FFFFFF;
+   background-image: url('images/page.jpeg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 body
