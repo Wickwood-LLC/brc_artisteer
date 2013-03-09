@@ -185,31 +185,25 @@ elseif (!empty($art_footer) && (trim($art_footer) != '')) { echo $art_footer; } 
 else { // HTML from Artisteer preview
 ob_start(); ?>
 		<div style="position:relative;display:inline-block;padding-left:42px;padding-right:42px">
-			<a title="RSS" class="art-rss-tag-icon" style="position: absolute; bottom: -10px; left: -6px; line-height: 32px;" href="&lt;?php echo $base_path?&gt;rss.xml">
-			</a>
 			<p>
-				Copyright © 
-<!--?php echo="" (="" date("y")=""?-->
-				&lt;= 2012="" "2012"="" :="" "2012-".date("y"));=""&gt;
-<!--=-->
-				Blue Ribbon Campaign, All Rights Reserved.
+				Copyright © <?php echo ( date("Y") <= 2013 ? "2013" : "2013-".date("Y")); ?> Blue Ribbon Campaign, All Rights Reserved.
 			</p>
 			<p>
-			<a href="/privacy-policy">
-				Privacy Policy
-			</a>
-			• 
-			<a href="/terms-of-use">
-				Website Terms of Use
-			</a>
-			• 
-			<a href="/contact">
-				Contact Us
-			</a>
-			• 
-			<a href="/acknowledgements">
-				Acknowledgements
-			</a>
+				<a href="/privacy-policy">
+					Privacy Policy
+				</a>
+				• 
+				<a href="/terms-of-use">
+					Website Terms of Use
+				</a>
+				• 
+				<a href="/contact">
+					Contact Us
+				</a>
+				• 
+				<a href="/acknowledgements">
+					Acknowledgements
+				</a>
 			</p>
 		</div>
 <?php
