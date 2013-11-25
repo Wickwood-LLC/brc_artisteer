@@ -11,7 +11,18 @@ function brc_process_html(&$variables) {
 		drupal_set_message($message, 'error');
 	}
 	$variables['styles'] .= $art_style;
-	$variables['scripts'] .= $art_head;
+	
+	$themePath = get_full_path_to_theme();
+	$jqueryNoConflict = <<< EOT
+<script>if ('undefined' != typeof jQuery) document._artxJQueryBackup = jQuery;</script>
+<script type="text/javascript" src="$themePath/jquery.js"></script>
+<script>jQuery.noConflict();</script>
+<script type="text/javascript" src="$themePath/script.js"></script>
+<script type="text/javascript" src="$themePath/script.responsive.js"></script>
+$art_head
+<script>if (document._artxJQueryBackup) jQuery = document._artxJQueryBackup;</script>
+EOT;
+	$variables['scripts'] .= $jqueryNoConflict;
 }
 
 function brc_breadcrumb($variables) {
@@ -318,14 +329,6 @@ $output .= ob_get_clean();
 
 	}
 	return $output;
-}
-
-/*
- * Replace old JQuery version with new one from Artisteer generated theme. 
-*/
-function art_compatible_scripts($scripts) {
-  $result = preg_replace('~(<script[^>]+misc/jquery.js)([^<]*)(</script>)~', '<script type="text/javascript" src="'.get_full_path_to_theme().'/jquery.js$2$3', $scripts);
-  return $result;
 }
 
 /* Theming Drupal search form 

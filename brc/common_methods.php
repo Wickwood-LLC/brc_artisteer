@@ -296,27 +296,30 @@ function art_node_title_output($title, $node_url, $page) {
   return $output;
 }
 
-function art_add_menu_class($menu, $art_class, $show_sub_menus) {
+function art_process_menu_class($menu, $menu_class) {
   $result = $menu;
   $matches = array();
   $pattern = '~<ul(.*?class=[\'"])(.*?)([\'"])~';
   if (preg_match($pattern, $menu, $matches)) { // Has attribute 'class'
     $class_attr = $matches[2];
     $pattern = '/^menu$|^menu\s|\smenu\s|\smenu$/';
-    $new_class_attr = preg_replace($pattern, ' '.$art_class.' ', $class_attr);
+    $new_class_attr = preg_replace($pattern, ' '.$menu_class.' ', $class_attr);
     $str_pos = strpos($menu, $class_attr);
     $result = substr_replace($menu, $new_class_attr, $str_pos, strlen($class_attr));
-  } else { // Attribute 'class' doesn't exist
-    $start = '<ul';
+  } else {
+	$start = '<ul';
     $str_pos = strpos($menu, $start);
-    $result = substr_replace($menu, $start." class='$art_class'", $str_pos, strlen($start));
+	if ($str_pos !== FALSE) { // Attribute 'class' doesn't exist
+	  $new_str = $start." class='$menu_class'";
+	  $result = substr_replace($menu, $new_str, $str_pos, strlen($start));
+	}
   }
-
+  
   return $result;
 }
 
 function art_hmenu_output($content) {
-  return art_add_menu_class($content, 'art-hmenu', true);
+  return art_process_menu_class($content, 'art-hmenu');
 }
 
 function art_vmenu_output($subject, $content) {
@@ -324,7 +327,7 @@ function art_vmenu_output($subject, $content) {
     return;
 
   $result = '';
-  $vmenu = art_add_menu_class($content, 'art-vmenu', true);
+  $vmenu = art_process_menu_class($content, 'art-vmenu');
   $result .= <<< EOT
 <div class="art-vmenublock clearfix">
         

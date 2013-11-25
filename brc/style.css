@@ -1,10 +1,8 @@
-/* @override 
-	http://dev.1.blueribboncampaign.org/sites/dev.1.blueribboncampaign.org/themes/brc/style.css?mjf4hv */
-
-/* Created by Artisteer v4.1.0.59861 */
+/* Created by Artisteer v4.2.0.60623 */
 
 #art-main
 {
+   background: #96C8DE url('images/page.jpeg') no-repeat fixed;
    margin:0 auto;
    font-size: 16px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
@@ -41,14 +39,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    -webkit-background-origin: border !important;
    -moz-background-origin: border !important;
    background-origin: border-box !important;
-   background: #4383A3;
-   background: linear-gradient(top, #5C9CBC 0, #4A91B5 25%, #34667F 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #5C9CBC 0, #4A91B5 25%, #34667F 100%) no-repeat;
-   background: -moz-linear-gradient(top, #5C9CBC 0, #4A91B5 25%, #34667F 100%) no-repeat;
-   background: -o-linear-gradient(top, #5C9CBC 0, #4A91B5 25%, #34667F 100%) no-repeat;
-   background: -ms-linear-gradient(top, #5C9CBC 0, #4A91B5 25%, #34667F 100%) no-repeat;
-   background: linear-gradient(top, #5C9CBC 0, #4A91B5 25%, #34667F 100%) no-repeat;
-   -svg-background: linear-gradient(top, #5C9CBC 0, #4A91B5 25%, #34667F 100%) no-repeat;
+   background: #96C8DE;
+   background: -webkit-linear-gradient(top, #C1DFEB 0, #6CB2D0 100%) no-repeat;
+   background: -moz-linear-gradient(top, #C1DFEB 0, #6CB2D0 100%) no-repeat;
+   background: -o-linear-gradient(top, #C1DFEB 0, #6CB2D0 100%) no-repeat;
+   background: -ms-linear-gradient(top, #C1DFEB 0, #6CB2D0 100%) no-repeat;
+   -svg-background: linear-gradient(top, #C1DFEB 0, #6CB2D0 100%) no-repeat;
+   background: linear-gradient(to bottom, #C1DFEB 0, #6CB2D0 100%) no-repeat;
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
@@ -58,7 +55,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    border:1px solid #34667F;
    padding:0 10px;
    margin:0 auto;
-   height:27px;
+   height:26px;
 }
 
 .art-postcontent,
@@ -102,7 +99,7 @@ ul.art-vmenu a
 .art-postheader, .art-postheader a, .art-postheader a:link, .art-postheader a:visited, .art-postheader a:hover
 {
    font-size: 26px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-decoration: none;
@@ -134,20 +131,20 @@ ul.art-vmenu a
    color: #238DB3;
    margin: 10px 0 0;
    font-size: 31px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h1
 {
    margin: 10px 0 0;
    font-size: 31px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h1 a, .art-postcontent h1 a:link, .art-postcontent h1 a:hover, .art-postcontent h1 a:visited, .art-blockcontent h1 a, .art-blockcontent h1 a:link, .art-blockcontent h1 a:hover, .art-blockcontent h1 a:visited 
 {
    font-size: 31px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h2
@@ -155,20 +152,20 @@ ul.art-vmenu a
    color: #238DB3;
    margin: 10px 0 0;
    font-size: 26px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h2
 {
    margin: 10px 0 0;
    font-size: 26px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h2 a, .art-postcontent h2 a:link, .art-postcontent h2 a:hover, .art-postcontent h2 a:visited, .art-blockcontent h2 a, .art-blockcontent h2 a:link, .art-blockcontent h2 a:hover, .art-blockcontent h2 a:visited 
 {
    font-size: 26px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h3
@@ -176,20 +173,20 @@ ul.art-vmenu a
    color: #5196B8;
    margin: 10px 0 0;
    font-size: 22px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h3
 {
    margin: 10px 0 0;
    font-size: 22px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h3 a, .art-postcontent h3 a:link, .art-postcontent h3 a:hover, .art-postcontent h3 a:visited, .art-blockcontent h3 a, .art-blockcontent h3 a:link, .art-blockcontent h3 a:hover, .art-blockcontent h3 a:visited 
 {
    font-size: 22px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h4
@@ -197,20 +194,20 @@ ul.art-vmenu a
    color: #12232B;
    margin: 10px 0 0;
    font-size: 19px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h4
 {
    margin: 10px 0 0;
    font-size: 19px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h4 a, .art-postcontent h4 a:link, .art-postcontent h4 a:hover, .art-postcontent h4 a:visited, .art-blockcontent h4 a, .art-blockcontent h4 a:link, .art-blockcontent h4 a:hover, .art-blockcontent h4 a:visited 
 {
    font-size: 19px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h5
@@ -218,20 +215,20 @@ ul.art-vmenu a
    color: #12232B;
    margin: 10px 0 0;
    font-size: 17px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h5
 {
    margin: 10px 0 0;
    font-size: 17px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h5 a, .art-postcontent h5 a:link, .art-postcontent h5 a:hover, .art-postcontent h5 a:visited, .art-blockcontent h5 a, .art-blockcontent h5 a:link, .art-blockcontent h5 a:hover, .art-blockcontent h5 a:visited 
 {
    font-size: 17px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h6
@@ -239,20 +236,20 @@ ul.art-vmenu a
    color: #224353;
    margin: 10px 0 0;
    font-size: 16px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h6
 {
    margin: 10px 0 0;
    font-size: 16px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h6 a, .art-postcontent h6 a:link, .art-postcontent h6 a:hover, .art-postcontent h6 a:visited, .art-blockcontent h6 a, .art-blockcontent h6 a:link, .art-blockcontent h6 a:hover, .art-blockcontent h6 a:visited 
 {
    font-size: 16px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 header, footer, article, nav, #art-hmenu-bg, .art-sheet, .art-hmenu a, .art-vmenu a, .art-slidenavigator > a, .art-checkbox:before, .art-radiobutton:before
@@ -285,23 +282,23 @@ html, body
    height: 100%;
 }
 
+/**
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ * https://github.com/necolas/normalize.css
+ */
+
 html {
-   background-color: #FFFFFF;
-   background-image: url('images/page.jpeg');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center center; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-}
+   -ms-text-size-adjust: 100%;
+   /* 2 */
+    -webkit-text-size-adjust: 100%;
+/* 2 */}
 
 body
 {
    padding: 0;
    margin:0;
-   min-width: 1000px;
+   min-width: 960px;
    color: #12232B;
 }
 
@@ -396,10 +393,10 @@ li p, .art-postcontent li p, .art-blockcontent li p
   display: inline-block;
   position: absolute;
   min-width: 50px;
-  top: 9px;
-  left: 52.13%;
+  top: 13px;
+  left: 87.23%;
+  margin-left: -591px !important;
   line-height: 100%;
-  margin-left: -357px !important;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -414,13 +411,16 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .art-headline a:visited, 
 .art-headline a:hover
 {
-  text-decoration: none;
+font-size: 54px;
+font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-shadow: 2.8px 2.8px 4px rgba(23, 23, 23, 0.82);
   padding: 0;
   margin: 0;
-  color: #E6F0F5 !important;
+  color: #FFFFFF !important;
   white-space: nowrap;
-  text-shadow: 1px 1px 3px #cbd5d9;
-  font: normal bold 72px Allura, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 
@@ -434,19 +434,27 @@ li p, .art-postcontent li p, .art-blockcontent li p
    -moz-border-radius:10px;
    border-radius:10px;
    margin:10px auto 0;
-   height: 125px;
-   background-image: url('images/header.png');
-   background-position: 0 0;
    background-repeat: no-repeat;
+   height: 125px;
+   background-image: url('images/object1213490278.png'), url('images/header.png');
+   background-position: 39px 12px, 0 0;
    position: relative;
-   width: 1000px;
+   width: 960px;
    z-index: auto !important;
 }
 
-.responsive .art-header 
+.custom-responsive .art-header
+{
+   background-image: url('images/object1213490278.png'), url('images/header.png');
+   background-position: 39px 12px, 0 0;
+}
+
+.default-responsive .art-header,
+.default-responsive #art-header-bg
 {
    background-image: url('images/header.png');
    background-position: center center;
+   background-size: cover;
 }
 
 .art-header > .region, .art-header > .block 
@@ -586,13 +594,12 @@ ul.art-hmenu>li:last-child, ul.art-hmenu>li.last-child {
 ul.art-hmenu>li>a
 {
    background: #9DC4D7;
-   background: linear-gradient(top, #D7E7EF 0, #63A1BF 100%) no-repeat;
    background: -webkit-linear-gradient(top, #D7E7EF 0, #63A1BF 100%) no-repeat;
    background: -moz-linear-gradient(top, #D7E7EF 0, #63A1BF 100%) no-repeat;
    background: -o-linear-gradient(top, #D7E7EF 0, #63A1BF 100%) no-repeat;
    background: -ms-linear-gradient(top, #D7E7EF 0, #63A1BF 100%) no-repeat;
-   background: linear-gradient(top, #D7E7EF 0, #63A1BF 100%) no-repeat;
    -svg-background: linear-gradient(top, #D7E7EF 0, #63A1BF 100%) no-repeat;
+   background: linear-gradient(to bottom, #D7E7EF 0, #63A1BF 100%) no-repeat;
    -webkit-border-radius:5px;
    -moz-border-radius:5px;
    border-radius:5px;
@@ -609,11 +616,11 @@ ul.art-hmenu>li>a
    text-align: center;
 }
 
-.art-hmenu a, 
-.art-hmenu a:link, 
-.art-hmenu a:visited, 
-.art-hmenu a.active, 
-.art-hmenu a:hover
+.art-hmenu>li>a, 
+.art-hmenu>li>a:link, 
+.art-hmenu>li>a:visited, 
+.art-hmenu>li>a.active, 
+.art-hmenu>li>a:hover
 {
    font-size: 16px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
@@ -626,13 +633,12 @@ ul.art-hmenu>li>a
 ul.art-hmenu>li>a.active
 {
    background: #264C5E;
-   background: linear-gradient(top, #3E7A98 0, #0F1D24 100%) no-repeat;
    background: -webkit-linear-gradient(top, #3E7A98 0, #0F1D24 100%) no-repeat;
    background: -moz-linear-gradient(top, #3E7A98 0, #0F1D24 100%) no-repeat;
    background: -o-linear-gradient(top, #3E7A98 0, #0F1D24 100%) no-repeat;
    background: -ms-linear-gradient(top, #3E7A98 0, #0F1D24 100%) no-repeat;
-   background: linear-gradient(top, #3E7A98 0, #0F1D24 100%) no-repeat;
    -svg-background: linear-gradient(top, #3E7A98 0, #0F1D24 100%) no-repeat;
+   background: linear-gradient(to bottom, #3E7A98 0, #0F1D24 100%) no-repeat;
    -webkit-border-radius:5px;
    -moz-border-radius:5px;
    border-radius:5px;
@@ -652,13 +658,12 @@ ul.art-hmenu>li:hover>a {
 ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
 {
    background: #50B7DC;
-   background: linear-gradient(top, #90D1E9 0, #2AA7D5 80%, #2593BB 100%) no-repeat;
    background: -webkit-linear-gradient(top, #90D1E9 0, #2AA7D5 80%, #2593BB 100%) no-repeat;
    background: -moz-linear-gradient(top, #90D1E9 0, #2AA7D5 80%, #2593BB 100%) no-repeat;
    background: -o-linear-gradient(top, #90D1E9 0, #2AA7D5 80%, #2593BB 100%) no-repeat;
    background: -ms-linear-gradient(top, #90D1E9 0, #2AA7D5 80%, #2593BB 100%) no-repeat;
-   background: linear-gradient(top, #90D1E9 0, #2AA7D5 80%, #2593BB 100%) no-repeat;
    -svg-background: linear-gradient(top, #90D1E9 0, #2AA7D5 80%, #2593BB 100%) no-repeat;
+   background: linear-gradient(to bottom, #90D1E9 0, #2AA7D5 80%, #2593BB 100%) no-repeat;
    -webkit-border-radius:5px;
    -moz-border-radius:5px;
    border-radius:5px;
@@ -701,14 +706,14 @@ ul.art-hmenu li li ul>li:last-child
 {
    display: block;
    white-space: nowrap;
-   height: 29px;
+   height: 28px;
    min-width: 7em;
    border: 1px solid transparent;
    text-align: left;
-   line-height: 29px;
+   line-height: 28px;
    color: #0F3C4D;
    font-size: 16px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
    margin:0;
 }
@@ -717,7 +722,7 @@ ul.art-hmenu li li ul>li:last-child
 {
    border-top-width: 0 !important;
 }
-.art-hmenu li li:hover a 
+.art-hmenu li li:hover>a 
 {
    border-top-width: 1px !important;
 }
@@ -732,10 +737,10 @@ ul.art-hmenu li li ul>li:last-child
 .art-hmenu ul a:hover
 {
    text-align: left;
-   line-height: 29px;
+   line-height: 28px;
    color: #0F3C4D;
    font-size: 16px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
    margin:0;
 }
@@ -746,8 +751,7 @@ ul.art-hmenu ul li a:hover, .desktop ul.art-hmenu ul li:hover>a
    border:1px solid #7FCAE6;
    margin:0 auto;
 }
-
-.art-hmenu ul li a:hover
+.art-hmenu ul a:hover
 {
    color: #000000;
 }
@@ -893,7 +897,7 @@ ul.art-hmenu ul
    margin:10px auto 0;
    position:relative;
    cursor:auto;
-   width: 1000px;
+   width: 960px;
    z-index: auto !important;
 }
 
@@ -959,8 +963,8 @@ div.art-vmenublock img
 .art-vmenublockheader .t a:hover
 {
    color: #0E3948;
-   font-size: 26px;
-   font-family: Allura, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-size: 22px;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    margin: 0 5px;
 }
 
@@ -1006,13 +1010,12 @@ ul.art-vmenu ul.active
 ul.art-vmenu>li>a
 {
    background: #7FCAE6;
-   background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -webkit-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -moz-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -o-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -ms-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
-   background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    -svg-background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
+   background: linear-gradient(to bottom, #C3E6F3 0, #3BAED8 100%) no-repeat;
    -webkit-border-radius:6px;
    -moz-border-radius:6px;
    border-radius:6px;
@@ -1022,6 +1025,11 @@ ul.art-vmenu>li>a
    border:1px solid #7FCAE6;
    padding:0 10px;
    margin:0 auto;
+   font-size: 14px;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
    color: #102028;
    min-height: 30px;
    line-height: 30px;
@@ -1031,11 +1039,6 @@ ul.art-vmenu a
    display: block;
    cursor: pointer;
    z-index: 1;
-   font-size: 14px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
    position:relative;
 }
 
@@ -1061,13 +1064,12 @@ ul.art-vmenu>li:first-child
 ul.art-vmenu>li>a:hover, ul.art-vmenu>li>a.active:hover
 {
    background: #28A1CC;
-   background: linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    background: -webkit-linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    background: -moz-linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    background: -o-linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    background: -ms-linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
-   background: linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    -svg-background: linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
+   background: linear-gradient(to bottom, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
    -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
@@ -1089,13 +1091,12 @@ ul.art-vmenu>li>a.active:hover>span.border-top, ul.art-vmenu>li>a.active:hover>s
 ul.art-vmenu>li>a.active
 {
    background: #28A1CC;
-   background: linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    background: -webkit-linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    background: -moz-linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    background: -o-linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    background: -ms-linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
-   background: linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    -svg-background: linear-gradient(top, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
+   background: linear-gradient(to bottom, #61BEE0 0, #2AA7D5 43%, #1C6E8D 100%) no-repeat;
    -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
    -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.2);
@@ -1145,7 +1146,7 @@ ul.art-vmenu ul a
    line-height: 24px;
    color: #152933;
    font-size: 14px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    margin-left: 0;
@@ -1157,7 +1158,7 @@ ul.art-vmenu ul a:visited, ul.art-vmenu ul a.active:hover, ul.art-vmenu ul a:hov
    line-height: 24px;
    color: #152933;
    font-size: 14px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    margin-left: 0;
@@ -1281,7 +1282,7 @@ ul.art-vmenu li li a.active:before
 }
 div.art-block img
 {
-   border: none;
+   border: 1px solid #9DC4D7;
    margin: 0;
 }
 
@@ -1297,8 +1298,8 @@ div.art-block img
 .art-blockheader .t a:hover
 {
    color: #0E3948;
-   font-size: 26px;
-   font-family: Allura, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-size: 22px;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    margin: 0 5px;
 }
 
@@ -1307,8 +1308,8 @@ div.art-block img
    padding:5px;
    margin:0 auto;
    color: #102028;
-   font-size: 17px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-size: 14px;
+   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: italic;
 }
@@ -1320,8 +1321,8 @@ div.art-block img
 .art-blockcontent a:hover
 {
    color: #102028;
-   font-size: 17px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-size: 14px;
+   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: italic;
 }
@@ -1334,21 +1335,21 @@ div.art-block img
 .art-blockcontent a, .art-blockcontent a:link
 {
    color: #2389AF;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-blockcontent a:visited, .art-blockcontent a.visited
 {
    color: #4A91B5;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-blockcontent a:hover, .art-blockcontent a.hover
 {
    color: #09C1E1;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: underline;
 }
 .art-block ul>li:before
@@ -1361,7 +1362,7 @@ div.art-block img
    vertical-align:middle;
    font-size:0;
    line-height:0;
-   margin-left: -13px;
+   margin-left: -9px;
 }
 .opera .art-block ul>li:before
 {
@@ -1385,7 +1386,7 @@ div.art-block img
 
 .art-block ul>li
 {
-   padding-left: 13px;
+   padding-left: 9px;
 }
 
 .art-breadcrumbs
@@ -1404,7 +1405,7 @@ button.art-button
 {
    text-decoration: none;
    font-size: 14px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    position:relative;
@@ -1412,12 +1413,12 @@ button.art-button
    vertical-align: middle;
    white-space: nowrap;
    text-align: center;
-   color: #CCEAF5;
+   color: #0C2F3C;
    margin: 0 5px 0 0 !important;
    overflow: visible;
    cursor: pointer;
    text-indent: 0;
-   line-height: 27px;
+   line-height: 26px;
    -webkit-box-sizing: content-box;
    -moz-box-sizing: content-box;
    box-sizing: content-box;
@@ -1439,7 +1440,7 @@ input, select, textarea, a.art-search-button span
 {
    vertical-align: middle;
    font-size: 14px;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1452,18 +1453,18 @@ input, select, textarea, a.art-search-button span
 input.art-button
 {
    float: none !important;
+   -webkit-appearance: none;
 }
 
 .art-button.active, .art-button.active:hover
 {
    background: #28A1CC;
-   background: linear-gradient(top, #4CB5DC 0, #2AA7D5 40%, #207FA2 100%) no-repeat;
    background: -webkit-linear-gradient(top, #4CB5DC 0, #2AA7D5 40%, #207FA2 100%) no-repeat;
    background: -moz-linear-gradient(top, #4CB5DC 0, #2AA7D5 40%, #207FA2 100%) no-repeat;
    background: -o-linear-gradient(top, #4CB5DC 0, #2AA7D5 40%, #207FA2 100%) no-repeat;
    background: -ms-linear-gradient(top, #4CB5DC 0, #2AA7D5 40%, #207FA2 100%) no-repeat;
-   background: linear-gradient(top, #4CB5DC 0, #2AA7D5 40%, #207FA2 100%) no-repeat;
    -svg-background: linear-gradient(top, #4CB5DC 0, #2AA7D5 40%, #207FA2 100%) no-repeat;
+   background: linear-gradient(to bottom, #4CB5DC 0, #2AA7D5 40%, #207FA2 100%) no-repeat;
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
@@ -1480,14 +1481,13 @@ input.art-button
 
 .art-button.hover, .art-button:hover
 {
-   background: #50B7DC;
-   background: linear-gradient(top, #7BC9E5 0, #2AA7D5 95%, #29A4D1 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #7BC9E5 0, #2AA7D5 95%, #29A4D1 100%) no-repeat;
-   background: -moz-linear-gradient(top, #7BC9E5 0, #2AA7D5 95%, #29A4D1 100%) no-repeat;
-   background: -o-linear-gradient(top, #7BC9E5 0, #2AA7D5 95%, #29A4D1 100%) no-repeat;
-   background: -ms-linear-gradient(top, #7BC9E5 0, #2AA7D5 95%, #29A4D1 100%) no-repeat;
-   background: linear-gradient(top, #7BC9E5 0, #2AA7D5 95%, #29A4D1 100%) no-repeat;
-   -svg-background: linear-gradient(top, #7BC9E5 0, #2AA7D5 95%, #29A4D1 100%) no-repeat;
+   background: #C9E3EE;
+   background: -webkit-linear-gradient(top, #F3F9FB 0, #9ACADF 100%) no-repeat;
+   background: -moz-linear-gradient(top, #F3F9FB 0, #9ACADF 100%) no-repeat;
+   background: -o-linear-gradient(top, #F3F9FB 0, #9ACADF 100%) no-repeat;
+   background: -ms-linear-gradient(top, #F3F9FB 0, #9ACADF 100%) no-repeat;
+   -svg-background: linear-gradient(top, #F3F9FB 0, #9ACADF 100%) no-repeat;
+   background: linear-gradient(to bottom, #F3F9FB 0, #9ACADF 100%) no-repeat;
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
@@ -1499,19 +1499,22 @@ input.art-button
    margin:0 auto;
 }
 .art-button.hover, .art-button:hover {
-   color: #08212B !important;
+   color: #104051 !important;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
 {
    background: #FFFFFF;
-   border-width: 0;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #7DB0CA;
    margin:0 auto;
 }
 input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
 {
    width: 100%;
-   padding: 8px 0;
+   padding: 4px 0;
    color: #182F3A !important;
    font-size: 16px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
@@ -1535,11 +1538,16 @@ input.art-error, textarea.art-error {
 form.art-search input[type="text"]
 {
    background: #FFFFFF;
-   border-radius: 0;
-   border-width: 0;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.35);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.35);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.35);
+   border:1px solid #7DB0CA;
    margin:0 auto;
    width: 100%;
-   padding: 0 0;
+   padding: 10px 0;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
@@ -1564,6 +1572,7 @@ form.art-search
 
 form.art-search input, a.art-search-button
 {
+   -webkit-appearance: none;
    top:0;
    right:0;
 }
@@ -1576,57 +1585,48 @@ form.art-search>input, a.art-search-button{
 
 form.art-search input[type="submit"], input.art-search-button, a.art-search-button
 {
-   background: #4383A3;
+   border-radius: 0;
    margin:0 auto;
 }
 form.art-search input[type="submit"], input.art-search-button, a.art-search-button {
    position:absolute;
    left:auto;
    display:block;
-   border: 0;
-   top: 0;
-   bottom: 0;
-   right: 	0;
-   padding:0 6px;
+   border:none;
+   background:url('images/searchicon.png') center center no-repeat;
+   width:24px;
+   height: 100%;
+   padding:0;
    color: #CCEAF5 !important;
-   font-size: 16px;
-   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
-   font-weight: normal;
-   font-style: normal;
    cursor: pointer;
 }
 
-a.art-search-button span.art-search-button-text, a.art-search-button:after {
-   vertical-align:middle;
-}
-
-a.art-search-button:after {
-   display:inline-block;
-   content:' ';
-   height: 100%;
-}
-
-a.art-search-button, a.art-search-button span,
-a.art-search-button:visited, a.art-search-button.visited,
-a.art-search-button:hover, a.art-search-button.hover 
-{
-   text-decoration: none;
-   font-size: 16px;
-   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
-   font-weight: normal;
-   font-style: normal;
+a.art-search-button span.art-search-button-text {
+   display: none;
 }
 
 label.art-checkbox:before
 {
    background: #FFFFFF;
-   -webkit-border-radius:1px;
-   -moz-border-radius:1px;
-   border-radius:1px;
-   border-width: 0;
+   background: -webkit-linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   background: -o-linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   background: linear-gradient(to bottom, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:1px solid #589ABB;
    margin:0 auto;
-   width:16px;
-   height:16px;
+   width:20px;
+   height:20px;
+   display: inline-block;
+   vertical-align: top;
+   content: ' ';
 }
 label.art-checkbox
 {
@@ -1635,9 +1635,10 @@ label.art-checkbox
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
-   line-height: 16px;
+   line-height: 20px;
    display: inline-block;
    color: #12232B !important;
+   position: relative;
 }
 
 .art-checkbox>input[type="checkbox"]
@@ -1648,39 +1649,69 @@ label.art-checkbox
 label.art-checkbox.active:before
 {
    background: #7FCAE6;
-   -webkit-border-radius:1px;
-   -moz-border-radius:1px;
-   border-radius:1px;
-   border-width: 0;
+   background: -webkit-linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   background: -moz-linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   background: -o-linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   background: -ms-linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   -svg-background: linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   background: linear-gradient(to bottom, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:1px solid #4DA2C7;
    margin:0 auto;
-   width:16px;
-   height:16px;
+   width:20px;
+   height:20px;
    display: inline-block;
 }
 
 label.art-checkbox.hovered:before
 {
    background: #BBE3F2;
-   -webkit-border-radius:1px;
-   -moz-border-radius:1px;
-   border-radius:1px;
-   border-width: 0;
+   background: -webkit-linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   background: -moz-linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   background: -o-linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   background: -ms-linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   -svg-background: linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   background: linear-gradient(to bottom, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:1px solid #589ABB;
    margin:0 auto;
-   width:16px;
-   height:16px;
+   width:20px;
+   height:20px;
    display: inline-block;
 }
 
 label.art-radiobutton:before
 {
    background: #FFFFFF;
-   -webkit-border-radius:3px;
-   -moz-border-radius:3px;
-   border-radius:3px;
-   border-width: 0;
+   background: -webkit-linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   background: -o-linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   background: linear-gradient(to bottom, #FFFFFF 0, #A4C8DA 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:1px solid #28A1CC;
    margin:0 auto;
-   width:12px;
-   height:12px;
+   width:20px;
+   height:20px;
+   display: inline-block;
+   vertical-align: top;
+   content: ' ';
 }
 label.art-radiobutton
 {
@@ -1689,9 +1720,10 @@ label.art-radiobutton
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
-   line-height: 12px;
+   line-height: 20px;
    display: inline-block;
    color: #12232B !important;
+   position: relative;
 }
 
 .art-radiobutton>input[type="radio"]
@@ -1703,27 +1735,72 @@ label.art-radiobutton
 label.art-radiobutton.active:before
 {
    background: #7FCAE6;
-   -webkit-border-radius:3px;
-   -moz-border-radius:3px;
-   border-radius:3px;
-   border-width: 0;
+   background: -webkit-linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   background: -moz-linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   background: -o-linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   background: -ms-linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   -svg-background: linear-gradient(top, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   background: linear-gradient(to bottom, #AEDEEF 0, #50B7DC 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:1px solid #4DA2C7;
    margin:0 auto;
-   width:12px;
-   height:12px;
+   width:20px;
+   height:20px;
    display: inline-block;
 }
 
 label.art-radiobutton.hovered:before
 {
    background: #BBE3F2;
-   -webkit-border-radius:3px;
-   -moz-border-radius:3px;
-   border-radius:3px;
-   border-width: 0;
+   background: -webkit-linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   background: -moz-linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   background: -o-linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   background: -ms-linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   -svg-background: linear-gradient(top, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   background: linear-gradient(to bottom, #EAF6FB 0, #88CEE7 100%) no-repeat;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.4);
+   border:1px solid #589ABB;
    margin:0 auto;
-   width:12px;
-   height:12px;
+   width:20px;
+   height:20px;
    display: inline-block;
+}
+
+label.art-radiobutton input[type="radio"]
+{
+   display: none;
+}
+
+label.art-radiobutton.art-checked:after
+{
+   content: url('images/radiobuttonicon.png');
+   position: absolute;
+   line-height: 12px;
+   left: 4px;
+   top: 4px;
+}
+
+label.art-checkbox input[type="checkbox"]
+{
+   display: none;
+}
+
+label.art-checkbox.art-checked:after
+{
+   content: url('images/checkboxicon.png');
+   position: absolute;
+   left: 2px;
+   top: 2px;
 }
 
 .art-comments
@@ -1857,10 +1934,9 @@ label.art-radiobutton.hovered:before
    padding:5px;
 }
 
-.art-pager>*:last-child,
-.art-pager>*:last-child:hover
+.art-pager>*:last-child
 {
-   margin-right:0;
+   margin-right:0 !important;
 }
 
 .art-pager>span {
@@ -1870,27 +1946,29 @@ label.art-radiobutton.hovered:before
 .art-pager>*
 {
    background: #BBE3F2;
-   background: linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    background: -webkit-linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    background: -moz-linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    background: -o-linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    background: -ms-linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
-   background: linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    -svg-background: linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
-   -webkit-border-radius:2px;
-   -moz-border-radius:2px;
-   border-radius:2px;
+   background: linear-gradient(to bottom, #FFFFFF 0, #72C5E3 100%) no-repeat;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
    border:1px solid #7FCAE6;
    padding:7px;
    margin:0 4px 0 auto;
+   line-height: normal;
    position:relative;
    display:inline-block;
    margin-left: 0;
 }
 
 .art-pager a:link,
-.art-pager a:visited
+.art-pager a:visited,
+.art-pager .active
 {
+   line-height: normal;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    color: #0F252F
@@ -1900,13 +1978,12 @@ label.art-radiobutton.hovered:before
 .art-pager .active
 {
    background: #7FCAE6;
-   background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -webkit-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -moz-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -o-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -ms-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
-   background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    -svg-background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
+   background: linear-gradient(to bottom, #C3E6F3 0, #3BAED8 100%) no-repeat;
    border:1px solid #BBE3F2;
    padding:7px;
    margin:0 4px 0 auto;
@@ -1917,13 +1994,12 @@ label.art-radiobutton.hovered:before
 .art-pager .more
 {
    background: #BBE3F2;
-   background: linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    background: -webkit-linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    background: -moz-linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    background: -o-linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    background: -ms-linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
-   background: linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
    -svg-background: linear-gradient(top, #FFFFFF 0, #72C5E3 100%) no-repeat;
+   background: linear-gradient(to bottom, #FFFFFF 0, #72C5E3 100%) no-repeat;
    border:1px solid #BBE3F2;
    margin:0 4px 0 auto;
 }
@@ -1936,13 +2012,12 @@ label.art-radiobutton.hovered:before
 .art-pager a:hover
 {
    background: #7FCAE6;
-   background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -webkit-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -moz-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -o-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    background: -ms-linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
-   background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
    -svg-background: linear-gradient(top, #C3E6F3 0, #3BAED8 100%) no-repeat;
+   background: linear-gradient(to bottom, #C3E6F3 0, #3BAED8 100%) no-repeat;
    border:1px solid #BBE3F2;
    padding:7px;
    margin:0 4px 0 auto;
@@ -2024,6 +2099,7 @@ a img
 
 .art-article img, img.art-article, .art-block img, .art-footer img
 {
+   border: 1px solid #9DC4D7;
    margin: 10px 10px 10px 10px;
 }
 
@@ -2107,8 +2183,7 @@ pre
 {
    color: #0F3C4D;
    margin: 5px 0;
-   font-size: 34px;
-   font-family: Allura, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-align: center;
 }
 
@@ -2119,14 +2194,13 @@ pre
 .art-postheader a:hover,
 .art-postheader a.hovered
 {
-   font-size: 34px;
-   font-family: Allura, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-align: center;
 }
 
 .art-postheader a, .art-postheader a:link
 {
-   font-family: Allura, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
    color: #185E77;
@@ -2134,7 +2208,7 @@ pre
 
 .art-postheader a:visited, .art-postheader a.visited
 {
-   font-family: Allura, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
    color: #34667F;
@@ -2142,7 +2216,7 @@ pre
 
 .art-postheader a:hover,  .art-postheader a.hovered
 {
-   font-family: Allura, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: underline;
    text-align: left;
    color: #09C1E1;
@@ -2154,7 +2228,7 @@ pre
 .art-postheadericons a:visited,
 .art-postheadericons a:hover
 {
-   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    color: #234657;
 }
 
@@ -2271,12 +2345,12 @@ pre
 
 .art-postcontent ul>li, .art-post ul>li, .art-textblock ul>li
 {
-   padding-left: 13px;
+   padding-left: 9px;
 }
 
 .art-postcontent ul>li:before,  .art-post ul>li:before,  .art-textblock ul>li:before
 {
-   margin-left: -13px;
+   margin-left: -9px;
 }
 
 .art-postcontent ol, .art-post ol, .art-textblock ol, .art-postcontent ul, .art-post ul, .art-textblock ul
@@ -2310,7 +2384,7 @@ pre
 blockquote
 {
    background: #CCE0EA url('images/postquote.png') no-repeat scroll;
-   padding:10px 10px 10px 47px;
+   padding:10px 10px 10px 34px;
    margin:10px 10px 10px 50px;
    color: #091116;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
@@ -2439,13 +2513,12 @@ tr.Navigator td, td span.Navigator
 .art-footer
 {
    background: #C9E3EE;
-   background: linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
    background: -webkit-linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
    background: -moz-linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
    background: -o-linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
    background: -ms-linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
-   background: linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
    -svg-background: linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
+   background: linear-gradient(to bottom, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
    margin:20px auto 0;
    position: relative;
    color: #0D1A21;
@@ -2499,37 +2572,37 @@ tr.Navigator td, td span.Navigator
 .art-footer h1
 {
    color: #50B7DC;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-footer h2
 {
    color: #50B7DC;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-footer h3
 {
    color: #9DC4D7;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-footer h4
 {
    color: #4383A3;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-footer h5
 {
    color: #4383A3;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-footer h6
 {
    color: #4383A3;
-   font-family: 'Palatino Linotype', Georgia, 'Times New Roman', Times, Serif;
+   font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-footer img
@@ -2541,7 +2614,7 @@ tr.Navigator td, td span.Navigator
 .art-footer-inner
 {
    margin: 0 auto;
-   width:1000px;
+   width:960px;
    padding:5px;
    padding-right: 5px;
    padding-left: 5px;
@@ -2556,6 +2629,7 @@ tr.Navigator td, td span.Navigator
    display: inline-block;
    text-indent: 35px;
    background-position: left center;
+   vertical-align: middle;
 }
 
 .art-rss-tag-icon:empty
@@ -2572,6 +2646,7 @@ tr.Navigator td, td span.Navigator
    display: inline-block;
    text-indent: 35px;
    background-position: left center;
+   vertical-align: middle;
 }
 
 .art-facebook-tag-icon:empty
@@ -2588,9 +2663,95 @@ tr.Navigator td, td span.Navigator
    display: inline-block;
    text-indent: 35px;
    background-position: left center;
+   vertical-align: middle;
 }
 
 .art-twitter-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.art-tumblr-tag-icon
+{
+   background:  url('images/tumblricon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.art-tumblr-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.art-pinterest-tag-icon
+{
+   background:  url('images/pinteresticon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.art-pinterest-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.art-vimeo-tag-icon
+{
+   background:  url('images/vimeoicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:33px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.art-vimeo-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.art-youtube-tag-icon
+{
+   background:  url('images/youtubeicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.art-youtube-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.art-linkedin-tag-icon
+{
+   background:  url('images/linkedinicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+   vertical-align: middle;
+}
+
+.art-linkedin-tag-icon:empty
 {
    vertical-align: middle;
 }
@@ -2876,18 +3037,6 @@ tr.Navigator td, td span.Navigator
 .art-blockheader .t, .art-vmenublockheader .t {white-space: nowrap;}
 /* End Additional CSS Styles */
 
-/* BEGIN FCKEditor, CKEditor, TinyMCE modules support*/
-/*body.art-body-nostyle, body.cke_show_borders, #tinymce body, #tinymce body.mceContentBody, body.mceContentBody, #edit-body
-{
-	background-image: none;
-	background-color: {bgColor} !important;
-	{editorFont}
-}*/
-/*
-use editor.css
-*/
-/* END FCKEditor, CKEditor modules support*/
-
 body.toolbar-drawer 
 {
     padding-top: 65px !important;
@@ -3159,13 +3308,6 @@ img.imagefield
 }
 /* END Support FCKEditor text alignment */
 
-/* BEGIN Set background color for sticky table */
-table.sticky-header
-{
-	background-color: {bgColor} !important;
-}
-/* END Set background color for sticky table */
-
 /* BEGIN Set alignment for radio buttons */
 input.form-radio, input.form-checkbox
 {
@@ -3394,189 +3536,22 @@ a.contextual-links-trigger
     padding: 0;
 }
 
-/* Styling for Frontpage */
+/* Begin Autocomplete styles customization */
 
-body.front article.art-post.art-article {
-  border: 1px none rgba(157, 196, 215, 0);
-  background-color: rgba(226, 237, 243, 0);
-  display: block;
+#node-form  input[type="text"] {
+	margin: 0 !important;
 }
 
-body.front div.view-nodequeue-1 {
-  display: block;
-  position: absolute;
-  bottom: 10%;
-  right: 5%;
-  width: 50%;
-  height: 75%;
+#node-form  #autocomplete ul li:before {
+	content: none !important;
 }
 
-body.front div.view-nodequeue-1 div.views-slideshow-pager-field-item {
-  border-collapse: separate;
-  -webkit-background-origin: border !important;
-  -moz-background-origin: border !important;
-  background-origin: border-box !important;
-  -webkit-border-radius:4px;
-  -moz-border-radius:4px;
-  border-radius:4px;
-  -webkit-box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.15);
-  box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.15);
-  padding: 5px 10px 0;
-  margin:0 auto;
-  height:30px;
-  text-align: center;
-  font-weight: bold;
-  font-style: italic;
+/* End Autocomplete styles customization */
+
+/* Begin BUEditor support */
+.art-commentsform  .bue-ui input:not([type="submit"]),
+.art-commentsform  .bue-ui input:not([type="image"]) {
+    width:auto;  
+    max-width:none;	
 }
-
-body.front div.view-nodequeue-1 #views_slideshow_pager_field_item_bottom_nodequeue_1-page_0 {
-  background: #4383A3;
-  background-image: -webkit-gradient(
-  				linear,
-  				left top, left bottom,
-  				from(red),
-  				to(darkred)
-  			);
-  			background-image: -webkit-linear-gradient(
-  				top,
-  				red,
-  				darkred
-  			);
-  			background-image: -moz-linear-gradient(
-  				top,
-  				red,
-  				darkred
-  			);
-  			background-image: -o-linear-gradient(
-  				top,
-  				red,
-  				darkred
-  			);
-  			background-image: linear-gradient(
-  				top,
-  				red,
-  				darkred
-  			);
-  border:1px solid darkred;
-}
-
-body.front #views_slideshow_pager_field_item_bottom_nodequeue_1-page_1 {
-  background: #4383A3;
-  background-image: -webkit-gradient(
-  				linear,
-  				left top, left bottom,
-  				from(yellow),
-  				to(goldenrod)
-  			);
-  			background-image: -webkit-linear-gradient(
-  				top,
-  				yellow,
-  				goldenrod
-  			);
-  			background-image: -moz-linear-gradient(
-  				top,
-  				yellow,
-  				goldenrod
-  			);
-  			background-image: -o-linear-gradient(
-  				top,
-  				yellow,
-  				goldenrod
-  			);
-  			background-image: linear-gradient(
-  				top,
-  				yellow,
-  				goldenrod
-  			);
-  
-  border:1px solid goldenrod;  
-  margin-top: .5em;
-}
-
-
-body.front #views_slideshow_pager_field_item_bottom_nodequeue_1-page_2 {
-  background: #4383A3;
-  background-image: -webkit-gradient(
-  				linear,
-  				left top, left bottom,
-  				from(darkseagreen),
-  				to(seagreen)
-  			);
-  			background-image: -webkit-linear-gradient(
-  				top,
-  				darkseagreen,
-  				seagreen
-  			);
-  			background-image: -moz-linear-gradient(
-  				top,
-  				darkseagreen,
-  				seagreen
-  			);
-  			background-image: -o-linear-gradient(
-  				top,
-  				darkseagreen,
-  				seagreen
-  			);
-  			background-image: linear-gradient(
-  				top,
-  				darkseagreen,
-  				seagreen
-  			);
-  border:1px solid seagreen;
-  margin-top: .5em;
-}
-
-
-body.front #views_slideshow_pager_field_item_bottom_nodequeue_1-page_3 {
-  background: #4383A3;
-  background-image: -webkit-gradient(
-  				linear,
-  				left top, left bottom,
-  				from(lightblue),
-  				to(darkcyan)
-  			);
-  			background-image: -webkit-linear-gradient(
-  				top,
-  				lightblue,
-  				darkcyan
-  			);
-  			background-image: -moz-linear-gradient(
-  				top,
-  				lightblue,
-  				darkcyan
-  			);
-  			background-image: -o-linear-gradient(
-  				top,
-  				lightblue,
-  				darkcyan
-  			);
-  			background-image: linear-gradient(
-  				top,
-  				lightblue,
-  				darkcyan
-  			);
-  border:1px solid darkcyan;
-  margin-top: .5em;
-}
-
-body.front div.view-nodequeue-1 div.field-name-body {
-  background: #E2EDF3;
-  background: rgba(226, 237, 243, 0.85);
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  border-radius:10px;
-  -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.13);
-  box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.13);
-  border:1px solid rgba(157, 196, 215, 0.85);
-  padding:10px;
-  margin:10px;
-  height: 100%;
-  width: 100%;
-}
-
-body.front div.view-nodequeue-1 div.views-slideshow-pager-field-item a {
-  color: white;
-  text-decoration: none;
-}
+/* End BUEditor support */

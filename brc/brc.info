@@ -37,7 +37,6 @@ stylesheets[screen][]= style.css
 
 stylesheets[all][]= style.responsive.css
 
-scripts[]= script.js
+stylesheets[undefined][]= favicon.ico
 
-scripts[]= script.responsive.js
 

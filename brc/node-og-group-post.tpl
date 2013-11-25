@@ -6,7 +6,7 @@ if (!empty($message)) {
 print $message;
 die();
 }
-$is_blog_page = isset($node->body['und'][0]['summary']) && ($node->body['und'][0]['summary'] == 'ART_BLOG_PAGE') ? true : false;
+$is_blog_page = isset($node->body['und'][0]['summary']) && (strpos($node->body['und'][0]['summary'], 'ART_BLOG_PAGE') !== FALSE);
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
 	<?php if (!$is_blog_page): ?>

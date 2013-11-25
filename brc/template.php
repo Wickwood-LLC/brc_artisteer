@@ -75,21 +75,17 @@ class artx_view_drupal56 {
   <?php echo $head; ?>
   <title><?php if (isset($head_title )) { echo $head_title; } ?></title>
   <?php echo $styles ?>
-  <?php if ((arg(1) != NULL && arg(1) == 'build') ||
-			((arg(2) != NULL) && (arg(2) == 'views' || arg(2) == 'edit'))): ?>
   <?php echo $scripts; ?>
-  <?php else: ?>
-  <?php echo art_compatible_scripts($scripts) ?>
-  <?php endif; ?>
-  <!-- Created by Artisteer v4.1.0.59861 -->
+  <!-- Created by Artisteer v4.2.0.60623 -->
 
-<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
 
 <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Allura&amp;subset=latin">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quando&amp;subset=latin" />
+
 
   
 </head>
@@ -118,15 +114,16 @@ class artx_view_drupal56 {
   <title><?php if (isset($head_title )) { echo $head_title; } ?></title>  
   <?php echo $styles ?>
   <?php echo $scripts ?>
-  <!-- Created by Artisteer v4.1.0.59861 -->
+  <!-- Created by Artisteer v4.2.0.60623 -->
 
-<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
 
 <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Allura&amp;subset=latin">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quando&amp;subset=latin" />
+
 
 
 </head>
@@ -216,15 +213,16 @@ class artx_view_drupal7 {
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <!-- Created by Artisteer v4.1.0.59861 -->
+  <!-- Created by Artisteer v4.2.0.60623 -->
 
-<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
 
 <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Allura&amp;subset=latin">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quando&amp;subset=latin" />
+
 
 
 </head>
