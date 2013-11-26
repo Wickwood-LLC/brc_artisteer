@@ -1,6 +1,7 @@
 /* @override 
 	http://dev.1.blueribboncampaign.org/sites/dev.1.blueribboncampaign.org/themes/brc/style.css?mjetr5
-	http://dev.1.blueribboncampaign.org/sites/dev.1.blueribboncampaign.org/themes/brc/style.css?mjf4hv */
+	http://dev.1.blueribboncampaign.org/sites/dev.1.blueribboncampaign.org/themes/brc/style.css?mjf4hv
+	http://1.dev.blueribboncampaign.org/sites/1.dev.blueribboncampaign.org/themes/brc/style.css?mwsbfi */
 
 /* Created by Artisteer v4.2.0.60623 */
 
@@ -296,7 +297,7 @@ html, body
 html {
    /* 1 */
    background-color: #FFFFFF;
-   background-image: url('images/page.jpeg');
+   background-image: url('images/page.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center center; 
