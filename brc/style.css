@@ -1,8 +1,11 @@
+/* @override 
+	http://dev.1.blueribboncampaign.org/sites/dev.1.blueribboncampaign.org/themes/brc/style.css?mjetr5
+	http://dev.1.blueribboncampaign.org/sites/dev.1.blueribboncampaign.org/themes/brc/style.css?mjf4hv */
+
 /* Created by Artisteer v4.2.0.60623 */
 
 #art-main
 {
-   background: #96C8DE url('images/page.jpeg') no-repeat fixed;
    margin:0 auto;
    font-size: 16px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
@@ -283,16 +286,29 @@ html, body
 }
 
 /**
+ * 1. Provide background image to center and adjust to window size
+ *
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  * https://github.com/necolas/normalize.css
  */
 
 html {
-   -ms-text-size-adjust: 100%;
+   /* 1 */
+   background-color: #FFFFFF;
+   background-image: url('images/page.jpeg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      
    /* 2 */
+    -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-/* 2 */}
+}
 
 body
 {
@@ -751,6 +767,7 @@ ul.art-hmenu ul li a:hover, .desktop ul.art-hmenu ul li:hover>a
    border:1px solid #7FCAE6;
    margin:0 auto;
 }
+
 .art-hmenu ul a:hover
 {
    color: #000000;
@@ -3555,3 +3572,190 @@ a.contextual-links-trigger
     max-width:none;	
 }
 /* End BUEditor support */
+
+/* Styling for Frontpage */
+
+body.front article.art-post.art-article {
+  border: 1px none rgba(157, 196, 215, 0);
+  background-color: rgba(226, 237, 243, 0);
+  display: block;
+}
+
+body.front div.view-nodequeue-1 {
+  display: block;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 50%;
+  height: 75%;
+}
+
+body.front div.view-nodequeue-1 div.views-slideshow-pager-field-item {
+  border-collapse: separate;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.15);
+  padding: 5px 10px 0;
+  margin:0 auto;
+  height:30px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+body.front div.view-nodequeue-1 #views_slideshow_pager_field_item_bottom_nodequeue_1-page_0 {
+  background: #4383A3;
+  background-image: -webkit-gradient(
+  				linear,
+  				left top, left bottom,
+  				from(red),
+  				to(darkred)
+  			);
+  			background-image: -webkit-linear-gradient(
+  				top,
+  				red,
+  				darkred
+  			);
+  			background-image: -moz-linear-gradient(
+  				top,
+  				red,
+  				darkred
+  			);
+  			background-image: -o-linear-gradient(
+  				top,
+  				red,
+  				darkred
+  			);
+  			background-image: linear-gradient(
+  				top,
+  				red,
+  				darkred
+  			);
+  border:1px solid darkred;
+}
+
+body.front #views_slideshow_pager_field_item_bottom_nodequeue_1-page_1 {
+  background: #4383A3;
+  background-image: -webkit-gradient(
+  				linear,
+  				left top, left bottom,
+  				from(yellow),
+  				to(goldenrod)
+  			);
+  			background-image: -webkit-linear-gradient(
+  				top,
+  				yellow,
+  				goldenrod
+  			);
+  			background-image: -moz-linear-gradient(
+  				top,
+  				yellow,
+  				goldenrod
+  			);
+  			background-image: -o-linear-gradient(
+  				top,
+  				yellow,
+  				goldenrod
+  			);
+  			background-image: linear-gradient(
+  				top,
+  				yellow,
+  				goldenrod
+  			);
+  
+  border:1px solid goldenrod;  
+  margin-top: .5em;
+}
+
+
+body.front #views_slideshow_pager_field_item_bottom_nodequeue_1-page_2 {
+  background: #4383A3;
+  background-image: -webkit-gradient(
+  				linear,
+  				left top, left bottom,
+  				from(darkseagreen),
+  				to(seagreen)
+  			);
+  			background-image: -webkit-linear-gradient(
+  				top,
+  				darkseagreen,
+  				seagreen
+  			);
+  			background-image: -moz-linear-gradient(
+  				top,
+  				darkseagreen,
+  				seagreen
+  			);
+  			background-image: -o-linear-gradient(
+  				top,
+  				darkseagreen,
+  				seagreen
+  			);
+  			background-image: linear-gradient(
+  				top,
+  				darkseagreen,
+  				seagreen
+  			);
+  border:1px solid seagreen;
+  margin-top: .5em;
+}
+
+
+body.front #views_slideshow_pager_field_item_bottom_nodequeue_1-page_3 {
+  background: #4383A3;
+  background-image: -webkit-gradient(
+  				linear,
+  				left top, left bottom,
+  				from(lightblue),
+  				to(darkcyan)
+  			);
+  			background-image: -webkit-linear-gradient(
+  				top,
+  				lightblue,
+  				darkcyan
+  			);
+  			background-image: -moz-linear-gradient(
+  				top,
+  				lightblue,
+  				darkcyan
+  			);
+  			background-image: -o-linear-gradient(
+  				top,
+  				lightblue,
+  				darkcyan
+  			);
+  			background-image: linear-gradient(
+  				top,
+  				lightblue,
+  				darkcyan
+  			);
+  border:1px solid darkcyan;
+  margin-top: .5em;
+}
+
+body.front div.view-nodequeue-1 div.field-name-body {
+  background: #E2EDF3;
+  background: rgba(226, 237, 243, 0.85);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.13);
+  box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.13);
+  border:1px solid rgba(157, 196, 215, 0.85);
+  padding:10px;
+  margin:10px;
+  height: 100%;
+  width: 100%;
+}
+
+body.front div.view-nodequeue-1 div.views-slideshow-pager-field-item a {
+  color: white;
+  text-decoration: none;
+}
