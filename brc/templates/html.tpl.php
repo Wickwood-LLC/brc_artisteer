@@ -6,16 +6,17 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
-  <?php print art_compatible_scripts($scripts); ?>
-  <!-- Created by Artisteer v4.1.0.59861 -->
+  <?php print $scripts; ?>
+  <!-- Created by Artisteer v4.2.0.60623 -->
 
-<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
 
 <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Allura&amp;subset=latin">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quando&amp;subset=latin" />
+
 
 
 </head>
