@@ -24,11 +24,34 @@ $is_maintenance = (bool)strpos($template_file, 'maintenance-page.tpl.php');
 <?php if (!empty($site_name)) : ?>
 <?php if (!$title) : ?>
 <h1 class="art-headline"><a href="<?php echo check_url($front_page); ?>" title = "<?php echo $site_name; ?>"><?php echo $site_name;  ?></a></h1><?php else : ?><div class="art-headline"><a href="<?php echo check_url($front_page); ?>" title = "<?php echo $site_name; ?>"><?php echo $site_name;  ?></a></div><?php endif; ?><?php endif; ?>
+<?php if (!empty($site_slogan)) : ?>
+<h2 class="art-slogan"><?php echo $site_slogan; ?>
+</h2><?php endif; ?>
 
 
 
+<div class="art-textblock art-textblock-1015892834">
+        <div class="art-textblock-1015892834-text-container">
+        <div class="art-textblock-1015892834-text"><a href="http://www.facebook.com/" class="art-facebook-tag-icon"></a></div>
+    </div>
+    
+</div><div class="art-textblock art-textblock-1772722846">
+        <div class="art-textblock-1772722846-text-container">
+        <div class="art-textblock-1772722846-text"><a href="https://twitter.com/" class="art-twitter-tag-icon"></a></div>
+    </div>
+    
+</div><div class="art-textblock art-textblock-896531721">
+        <div class="art-textblock-896531721-text-container">
+        <div class="art-textblock-896531721-text"><a href="http://www.youtube.com/" class="art-youtube-tag-icon"></a></div>
+    </div>
+    
+</div>
 
 
+                
+                    
+</header>
+<div class="art-sheet clearfix">
 <?php if (!empty($navigation) || !empty($extra1) || !empty($extra2)): ?>
 <nav class="art-nav">
      
@@ -43,11 +66,7 @@ $is_maintenance = (bool)strpos($template_file, 'maintenance-page.tpl.php');
 <?php endif; ?>
 </nav><?php endif; ?>
 
-
-                    
-</header>
-<div class="art-sheet clearfix">
-            <?php if (!empty($banner1)) { echo '<div id="banner1">'.render($banner1).'</div>'; } ?>
+<?php if (!empty($banner1)) { echo '<div id="banner1">'.render($banner1).'</div>'; } ?>
 <?php echo art_placeholders_output(render($top1), render($top2), render($top3)); ?>
 <div class="art-layout-wrapper">
                 <div class="art-content-layout">
@@ -192,6 +211,7 @@ else { // HTML from Artisteer preview
 ob_start(); ?>
 
 		<div style="position:relative;display:inline-block;padding-left:42px;padding-right:42px">
+            <a title="RSS" class="art-rss-tag-icon" style="position: absolute; bottom: -10px; left: -6px; line-height: 32px;" href="<?php echo $base_path?>rss.xml"></a>
 			<p>
 				Copyright © <?php echo ( date("Y") <= 2013 ? "2013" : "2013-".date("Y")); ?> Blue Ribbon Campaign, All Rights Reserved.
 			</p>

@@ -424,39 +424,6 @@ jQuery(window).bind("responsiveResize", (function ($) {
 })(jQuery));
 
 
-var menuInHeader;
-var menuInHeaderHack;
-var responsiveNav = (function ($) {
-    "use strict";
-    return function (responsiveDesign) {
-        var header = $(".art-header");
-        var nav = $('.art-nav');
-
-        if (typeof menuInHeader === 'undefined') {
-            nav = $('.art-header .art-nav');
-            menuInHeader = nav.length !== 0;
-            menuInHeaderHack = false;
-        }
-        
-        if (!menuInHeader) return;
-        
-        if (responsiveDesign.isResponsive) {
-            if (menuInHeaderHack) return;
-            menuInHeaderHack = true;
-            nav.insertAfter(header);
-        } else {
-            if (!menuInHeaderHack) return;
-            menuInHeaderHack = false;
-
-            header.append(nav);
-        }
-    };
-})(jQuery);
-
-jQuery(window).bind("responsivePage", function (event, responsiveDesign) {
-    "use strict";
-    responsiveNav(responsiveDesign);
-});
 
 
 jQuery(function ($) {
@@ -509,6 +476,16 @@ jQuery(function($) {
         e.preventDefault();
     });
 });
+
+jQuery(window).bind("responsiveNav", (function ($) {
+    /*global menuExtendedCreate */
+    "use strict";
+    return function (event, options) {
+        if (options.responsiveDesign.isDesktop && $("li.ext").length > 0) {
+            menuExtendedCreate();
+        }
+    };
+})(jQuery));
 
 /*global jQuery, responsiveDesign*/
 

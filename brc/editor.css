@@ -48,7 +48,7 @@ p
 h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover, h2, h2 a, h2 a:link, h2 a:visited, h2 a:hover, h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover, h4, h4 a, h4 a:link, h4 a:visited, h4 a:hover, h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover, h6, h6 a, h6 a:link, h6 a:visited, h6 a:hover
 {
     font-size: 26px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
     font-weight: bold;
     font-style: normal;
     text-decoration: none;
@@ -80,13 +80,13 @@ h1
     color: #238DB3;
     margin: 10px 0 0;
     font-size: 31px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h1 a, h1 a:link, h1 a:hover, h1 a:visited
 {
     font-size: 31px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h2
@@ -94,13 +94,13 @@ h2
     color: #238DB3;
     margin: 10px 0 0;
     font-size: 26px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h2 a, h2 a:link, h2 a:hover, h2 a:visited
 {
     font-size: 26px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h3
@@ -108,13 +108,13 @@ h3
     color: #5196B8;
     margin: 10px 0 0;
     font-size: 22px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h3 a, h3 a:link, h3 a:hover, h3 a:visited
 {
     font-size: 22px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h4
@@ -122,13 +122,13 @@ h4
     color: #12232B;
     margin: 10px 0 0;
     font-size: 19px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h4 a, h4 a:link, h4 a:hover, h4 a:visited
 {
     font-size: 19px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h5
@@ -136,13 +136,13 @@ h5
     color: #12232B;
     margin: 10px 0 0;
     font-size: 17px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h5 a, h5 a:link, h5 a:hover, h5 a:visited
 {
     font-size: 17px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h6
@@ -150,13 +150,13 @@ h6
     color: #224353;
     margin: 10px 0 0;
     font-size: 16px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 h6 a, h6 a:link, h6 a:hover, h6 a:visited
 {
     font-size: 16px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
 }
 
 header, footer, nav
@@ -269,7 +269,7 @@ input, select, textarea
 {
     vertical-align: middle;
     font-size: 14px;
-    font-family: Quando, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
     font-weight: normal;
     font-style: normal;
 }

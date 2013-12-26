@@ -42,8 +42,8 @@ ul.art-hmenu>li:first-child {
    padding-right:8px;
 }
 
-ul.art-hmenu ul{
-   background-color: #96C8DE !important;
+ul.art-hmenu ul, .desktop-nav ul.art-hmenu>li.ext:hover>a{
+   background-color: #2491FF !important;
 }
 
 .art-content-layout, .art-content-layout-row, .art-layout-cell 

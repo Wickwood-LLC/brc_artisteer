@@ -84,7 +84,7 @@ class artx_view_drupal56 {
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quando&amp;subset=latin" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Berkshire+Swash&amp;subset=latin" />
 
 
   
@@ -122,7 +122,7 @@ class artx_view_drupal56 {
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quando&amp;subset=latin" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Berkshire+Swash&amp;subset=latin" />
 
 
 
@@ -221,7 +221,7 @@ class artx_view_drupal7 {
 
 <!--[if lte IE 7]><link rel="stylesheet" href="<?php echo base_path() . $directory; ?>/style.ie7.css" media="screen" /><![endif]-->
 
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quando&amp;subset=latin" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Berkshire+Swash&amp;subset=latin" />
 
 
 
