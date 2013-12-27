@@ -3,7 +3,7 @@
 /* Drupal 7 methods definitons */
 $art_style = '';
 $art_head = '';
-function brc_process_html(&$variables) {
+function brc_round_process_html(&$variables) {
     global $art_style, $art_head;
 	$view = get_artx_drupal_view();
 	$message = $view->get_incorrect_version_message();
@@ -25,7 +25,7 @@ EOT;
 	$variables['scripts'] .= $jqueryNoConflict;
 }
 
-function brc_breadcrumb($variables) {
+function brc_round_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
 
   if (!empty($breadcrumb)) {
@@ -48,7 +48,7 @@ function brc_breadcrumb($variables) {
  *
  * @ingroup themeable
  */
-function brc_button($variables) {
+function brc_round_button($variables) {
   $element = $variables['element'];
   $element['#attributes']['type'] = 'submit';
   element_set_attributes($element, array('id', 'name', 'value'));
@@ -64,7 +64,7 @@ function brc_button($variables) {
 /**
  * Override or insert variables into the page template.
  */
-function brc_preprocess_page(&$vars) {
+function brc_round_preprocess_page(&$vars) {
   global $art_style, $art_head;
   $vars['tabs'] = menu_primary_local_tasks();
   $vars['tabs2'] = menu_secondary_local_tasks();
@@ -99,7 +99,7 @@ function brc_preprocess_page(&$vars) {
  *
  * @ingroup themeable
  */
-function brc_menu_local_task($variables) {
+function brc_round_menu_local_task($variables) {
   $link = $variables['element']['#link'];
   $link_text = $link['title'];
   
@@ -132,7 +132,7 @@ function brc_menu_local_task($variables) {
  *   - url: The url of the feed.
  *   - title: A descriptive title of the feed.
  */
-function brc_feed_icon($variables) {
+function brc_round_feed_icon($variables) {
   $text = t('Subscribe to @feed-title', array('@feed-title' => $variables['title']));
   return l(NULL, $variables['url'], array('html' => TRUE, 'attributes' => array('class' => array('feed-icon', 'art-rss-tag-icon'), 'title' => $text)));
 }
@@ -146,7 +146,7 @@ function brc_feed_icon($variables) {
  *
  * @ingroup themeable
  */
-function brc_node_preview($variables) {
+function brc_round_node_preview($variables) {
   $node = $variables['node'];
 
   $output = '<div class="preview">';
@@ -343,7 +343,7 @@ $output .= ob_get_clean();
  *   String representing the name of the form itself. Typically this is the
  *   name of the function that generated the form.
 */
-function brc_form_alter(&$form, &$form_state, $form_id) {
+function brc_round_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form' || $form_id == 'search_form') {
     $form['#attributes'] = array('class' => array('art-search')); // Add Artisteer class
     $form['actions']['submit']['#attributes'] = array('class' => array('art-search-button')); // Add Artisteer class
@@ -390,7 +390,7 @@ function art_label($variables) {
   return  $result;
 }
 
-function brc_form_element_label($variables) {
+function brc_round_form_element_label($variables) {
   $art_label = art_label($variables);
 
   // The leading whitespace helps visually separate fields from inline labels.
@@ -399,7 +399,7 @@ function brc_form_element_label($variables) {
           ' ' . (isset($art_label['label_tail']) && !empty($art_label['label_tail']) ? $art_label['label_tail'] : '');
 }
 
-function brc_form_element($variables) {
+function brc_round_form_element($variables) {
   $element = &$variables['element'];
   // This is also used in the installer, pre-database setup.
   $t = get_t();
@@ -472,7 +472,7 @@ function brc_form_element($variables) {
   return $output;
 }
 
-function brc_pager($variables) {
+function brc_round_pager($variables) {
   $tags = $variables['tags'];
   $element = $variables['element'];
   $parameters = $variables['parameters'];

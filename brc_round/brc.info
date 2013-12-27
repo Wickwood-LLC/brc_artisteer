@@ -1,6 +1,6 @@
-; $Id: brc.info $ 
-name = brc
-description = Customized theme for The Blue Ribbon Campaign modified from an Artisteer-generated theme.
+; $Id: brc_round.info $ 
+name = brc_round
+description = Customized theme with rounded corners for The Blue Ribbon Campaign modified from an Artisteer-generated theme.
 screenshot = screenshot.png
 version = 1.0
 core = 7.x
