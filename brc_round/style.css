@@ -1856,7 +1856,7 @@ div.art-block img
 .art-blockheader .t a:hover
 {
    color: #0E3948;
-   font-size: 22px;
+   font-size: 18px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    margin: 0 5px;
 }
@@ -1867,8 +1867,7 @@ div.art-block img
    margin:0 auto;
    color: #102028;
    font-size: 14px;
-   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;   
    font-style: italic;
 }
 .art-blockcontent table,
@@ -1881,7 +1880,6 @@ div.art-block img
    color: #102028;
    font-size: 14px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
-   font-weight: bold;
    font-style: italic;
 }
 
