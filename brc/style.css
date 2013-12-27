@@ -1,3 +1,6 @@
+/* @override 
+	http://1.dev.blueribboncampaign.org/sites/1.dev.blueribboncampaign.org/themes/brc/style.css?mwsbfi */
+
 /* Created by Artisteer v4.2.0.60623 */
 
 #art-main
@@ -3075,12 +3078,14 @@ tr.Navigator td, td span.Navigator
    -svg-background: linear-gradient(top, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
    background: linear-gradient(to bottom, rgba(236, 245, 249, 0.75) 0, rgba(170, 211, 228, 0.75) 100%) no-repeat;
    margin:20px auto 0;
-   position: relative;
+   position: absolute;
    color: #0D1A21;
    font-size: 13px;
    font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
    text-align: center;
    padding: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .art-footer a,
@@ -3178,7 +3183,7 @@ tr.Navigator td, td span.Navigator
 .art-rss-tag-icon
 {
    background:  url('images/footerrssicon.png') no-repeat scroll;
-   margin:0 auto;
+   margin: 0 auto 10px;
    min-height:32px;
    min-width:32px;
    display: inline-block;
