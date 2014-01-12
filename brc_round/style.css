@@ -1,5 +1,5 @@
-/* @override 
-	http://1.dev.blueribboncampaign.org/sites/1.dev.blueribboncampaign.org/themes/brc_round/style.css?mwsbfi */
+/* @override
+	http://1.dev.blueribboncampaign.org/sites/1.dev.blueribboncampaign.org/themes/brc_round/style.css?myy3az */
 
 /* Created by Artisteer v4.2.0.60623 */
 
@@ -383,7 +383,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
    bottom: 0;
    left: 0;
    overflow: hidden;
-   z-index: 0;
+   z-index: -10;
 }
 
 .art-slider-inner {
@@ -404,7 +404,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
    margin-right: 0 !important;
 }
 
-.art-headline
+/* .art-headline 
 {
   display: inline-block;
   position: absolute;
@@ -419,6 +419,15 @@ li p, .art-postcontent li p, .art-blockcontent li p
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
   z-index: 101;
+} */
+
+.art-headline {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  position: absolute;
+  text-align: center;
 }
 
 .art-headline, 
@@ -4114,7 +4123,7 @@ a.contextual-links-trigger
 }
 /* End BUEditor support */
 
-/* Styling for Frontpage */
+/* Styling for Frontpage 
 
 body.front article.art-post.art-article {
   border: 1px none rgba(157, 196, 215, 0);
@@ -4299,4 +4308,4 @@ body.front div.view-nodequeue-1 div.field-name-body {
 body.front div.view-nodequeue-1 div.views-slideshow-pager-field-item a {
   color: white;
   text-decoration: none;
-}
+}*/
